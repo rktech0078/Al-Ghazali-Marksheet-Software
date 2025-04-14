@@ -10,6 +10,7 @@ from reportlab.lib.utils import ImageReader
 from datetime import datetime
 from io import BytesIO
 
+st.set_page_config( page_icon="📜", page_title="Al-Ghazali Marksheet Software" )
 # --- Function to Load Data from JSON ---
 def load_data():
     if os.path.exists('students_data.json'):
