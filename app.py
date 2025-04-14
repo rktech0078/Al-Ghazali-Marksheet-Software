@@ -286,7 +286,7 @@ def generate_individual_pdfs(selected_students, include_combined=True):
         current_datetime = datetime.now().strftime("%Y-%m-%d %I:%M:%S %p")
         p.setFont("Helvetica", 8)
         p.setFillColor(colors.black)
-        p.drawCentredString(width / 2, 30, f"Issued on: {current_datetime}")
+        p.drawCentredString(width / 2, 30, f"It is computer generated copy, Issued on: {current_datetime}")
         
         # End the page
         p.showPage()
